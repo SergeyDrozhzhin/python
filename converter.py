@@ -89,6 +89,12 @@ class CurrencyConverter(QMainWindow):
 			buttonReply = QMessageBox.question(self, 'Внимание', "Вы не ввели значение!", QMessageBox.Yes)
 			self.convertBtn.setEnabled(False)
 			print(int(buttonReply))
+		else:
+			buttonReply = QMessageBox.question(self, 'Внимание', "Нужно очистить одно из полей!", QMessageBox.Yes)
+			self.convertBtn.setEnabled(False)
+			
+
+
 			
         	
 
