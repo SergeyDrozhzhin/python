@@ -70,7 +70,7 @@ class CurrencyConverter(QMainWindow):
 
 	
 	def keyPressEvent(self, e):
-		if e.key() == 16777220 or key.key() == 16777221: 
+		if e.key() == 16777220 or e.key() == 16777221: 
 			self.onClick()	
 
 
