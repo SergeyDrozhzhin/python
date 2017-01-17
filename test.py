@@ -42,7 +42,7 @@ def filesindir():
 
 
 
-def razmer(start_path = 'C:\Logs'):
+def razmer(start_path):
     total_size = 0
     for dirpath, dirnames, filenames in os.walk(start_path):
         for f in filenames:
